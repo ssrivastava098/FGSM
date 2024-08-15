@@ -1,0 +1,35 @@
+body 
+{
+    background-color: rgba(0, 0, 0, 0.527) !important;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+}
+.row
+{
+    margin: 5px;
+}
+.my_container
+{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.gallery{
+    display: block;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gallery img{
+    max-width: 80%;
+    max-height: 500px;
+    border-radius:  8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.0.2);
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
